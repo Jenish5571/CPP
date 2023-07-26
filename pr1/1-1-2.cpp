@@ -32,15 +32,13 @@ class Time
          	<< ss << endl;
     		cout << "Time in total seconds: " << seconds;
 		}
-
 };
 
 int main()
 {
     Time t; 
-
+	
     t.getTime();
 	t.Seconds();
     t.displayTime();
-
 }
